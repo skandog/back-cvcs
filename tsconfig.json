@@ -2,8 +2,21 @@
     "compilerOptions": {
       "outDir": "./built",
       "allowJs": true,
-      "target": "es5"
+      "target": "esnext",
+      "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "types": ["jest", "node"],
+    "jsx": "react-jsx",
     },
     "include": ["./"],
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules", "built"]
   }
