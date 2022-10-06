@@ -1,4 +1,4 @@
 export const dummySkills = [
-    { name: 'Trail Blazer', type: 'Soft Skills' },
-    { name: 'Typescript', type: 'dev' },
+    { id: 1, name: 'Trail Blazer', count: 2, type: 'Soft Skills' },
+    { id: 2, name: 'Typescript', count: 3, type: 'dev' },
 ];
